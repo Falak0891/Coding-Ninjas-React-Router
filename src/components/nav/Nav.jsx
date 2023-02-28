@@ -8,6 +8,7 @@ function Nav() {
       <nav>
         <div className={style.nav_container}>
           <div className={style.nav_title_wrapper}>
+            {/* Second Task */}
             <Link to="/">
               <img
                 className={style.logo}
@@ -19,6 +20,7 @@ function Nav() {
           </div>
           <div className={style.nav_details}>
             <button>
+               {/* Second Task */}
               <NavLink to="/courses">
                 {({ isActive }) => (isActive ? "On Courses" : "Go To Courses")}
               </NavLink>
