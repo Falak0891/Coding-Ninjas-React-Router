@@ -5,7 +5,7 @@ function Chapter() {
   return (
     <div>
       <h1>**CHAPTER TITLE**</h1>
-      <p>**CHAPTER DESCRIPTION**</p>
+      <h2>**CHAPTER DESCRIPTION**</h2>
       <p className={styles.para}>**CHAPTER**</p>
       <br />
       <br />
