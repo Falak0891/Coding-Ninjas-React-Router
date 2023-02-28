@@ -21,7 +21,7 @@ function Details() {
           <p className={style.card_description}>**DESCRIPTION**</p>
         </div>
       </div>
-
+      {/* Task4: create Link to the Learn Page */}
       <button className={style.button}>Start Learning</button>
     </div>
   );
