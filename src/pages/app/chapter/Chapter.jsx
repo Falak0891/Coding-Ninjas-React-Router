@@ -1,19 +1,21 @@
 import React from "react";
+import styles from "./Chapter.module.css";
 
 function Chapter() {
   return (
     <div>
-      <h1>{chapter.title}</h1>
-      <p>{chapter.description}</p>
-      <p className={styles.para}>{chapter.details}</p>
+      <h1>**CHAPTER TITLE**</h1>
+      <p>**CHAPTER DESCRIPTION**</p>
+      <p className={styles.para}>**CHAPTER**</p>
       <br />
       <br />
       <div className={styles.videos}>
+        {/*TASK:5 CHAPTER VIDEO SRC SHOULD BE GIVEN IN THE SOURCE */}
         <iframe
           width="800"
           height="560"
-          src={chapter.video}
-          title="YouTube video player"
+          src=""
+          title="React Video"
           frameborder="1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
