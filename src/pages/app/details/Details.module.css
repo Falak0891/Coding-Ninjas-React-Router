@@ -32,3 +32,22 @@
 .image_container img{
     height: 100px;
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-accent);
+  color: var(--clr-text-main);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  width: max-content;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: var(--clr-accent-hover);
+}
