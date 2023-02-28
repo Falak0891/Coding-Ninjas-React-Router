@@ -19,11 +19,12 @@ function Learn() {
           <hr />
           <ul>{/*Task4: List of Chapters must be rendered here  */}</ul>
         </div>
-      </div>
+      
       <div className={style.courses}>
         {/**Task5:  Chapter Details Must be rendered here */}
       </div>
     </div>
+</div>
   );
 }
 
